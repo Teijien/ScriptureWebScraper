@@ -11,4 +11,4 @@ verses = scripture.find_all(class_="verse")
 first = verses[0]
 
 if __name__ == '__main__':
-    print(first.prettify())
+    print(first.get_text())
