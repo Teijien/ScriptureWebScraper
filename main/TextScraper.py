@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 
 
-def verse_parser(page, parser_type, div_tag, verse_class, a_tag, sup_tag, paramark_class, body_class=None):
+def verse_parser(page, parser_type, div_tag, verse_class, a_tag, sup_tag,  body_class=None):
     soup = BeautifulSoup(page.content, parser_type)
 
     if body_class is not None:
